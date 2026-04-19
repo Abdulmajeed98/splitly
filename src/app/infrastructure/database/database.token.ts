@@ -1,0 +1,1 @@
+export const DATABASE_POOL_TOKEN = Symbol('DATABASE_POOL_TOKEN');
