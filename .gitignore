@@ -2,3 +2,8 @@
 .claude/
 docs/learnings
 CLAUDE.md
+node_modules
+*.local
+.env
+
+dist
