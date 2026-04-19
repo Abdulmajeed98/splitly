@@ -11,4 +11,5 @@ This is a learning project. The stack mirrors `fib-backend-typescript`: NestJS +
 - [`docs/DECISIONS.md`](docs/DECISIONS.md) — architectural decisions
 - [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) — what "done" means for a story
 - [`docs/SCRUM.md`](docs/SCRUM.md) — how we work
+
 # splitly
