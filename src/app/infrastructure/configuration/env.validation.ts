@@ -3,6 +3,7 @@ import {
   IsEnum,
   IsNotEmpty,
   IsNumber,
+  IsString,
   Max,
   Min,
   validateSync,
@@ -11,6 +12,10 @@ import {
 export class EnvironmentVariables {
   @IsEnum(['development', 'production', 'test'])
   NODE_ENV!: string;
+
+  @IsString()
+  @IsNotEmpty()
+  DB_HOST!: string;
 
   @IsNumber()
   @Min(1)
