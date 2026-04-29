@@ -58,16 +58,16 @@ Must complete before writing any Splitly code. Four focused sessions, dependency
 
 To be scoped after F4. High-level shape (subject to change):
 
-| # | Milestone | Theme |
-|---|---|---|
-| M1 | Project skeleton + first endpoint | Production-shaped hello world |
-| M2 | Auth | JWT issuance/validation, `@CurrentUser`, role guards |
-| M3 | Groups & Membership | First multi-entity feature + authorization |
-| M4 | Expenses & Splits | Atomic multi-row writes, split strategies, domain logic |
-| M5 | Balances & Settlements | Aggregation queries, transaction-heavy |
-| M6 | Pagination, search, performance | Real index tuning with real data |
-| M7 | Operational polish | Health, metrics, logging, graceful shutdown |
-| M8+ | Optional depth | Debt simplification, file uploads, cron, webhooks, frontend |
+| #   | Milestone                         | Theme                                                       |
+| --- | --------------------------------- | ----------------------------------------------------------- |
+| M1  | Project skeleton + first endpoint | Production-shaped hello world                               |
+| M2  | Auth                              | JWT issuance/validation, `@CurrentUser`, role guards        |
+| M3  | Groups & Membership               | First multi-entity feature + authorization                  |
+| M4  | Expenses & Splits                 | Atomic multi-row writes, split strategies, domain logic     |
+| M5  | Balances & Settlements            | Aggregation queries, transaction-heavy                      |
+| M6  | Pagination, search, performance   | Real index tuning with real data                            |
+| M7  | Operational polish                | Health, metrics, logging, graceful shutdown                 |
+| M8+ | Optional depth                    | Debt simplification, file uploads, cron, webhooks, frontend |
 
 ### Open decisions (resolve at M1 kickoff, after F4)
 

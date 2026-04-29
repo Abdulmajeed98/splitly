@@ -32,6 +32,7 @@ Brief demo of the working result. Claude grades against the milestone's acceptan
 ## Retrospective
 
 After each milestone, two questions:
+
 - **What felt solid?**
 - **What's still foggy?**
 
