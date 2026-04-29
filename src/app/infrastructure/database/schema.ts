@@ -1,4 +1,4 @@
-import * as usersSchema from './users.schema';
+import * as usersSchema from '~/infrastructure/database/users.schema';
 export const schema = {
   ...usersSchema,
 };

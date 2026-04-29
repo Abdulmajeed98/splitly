@@ -1,6 +1,6 @@
 import { Global, Module } from '@nestjs/common';
-import { DatabaseProvider } from 'src/app/infrastructure/database/database.provider';
-import { DATABASE_POOL_TOKEN } from './database.token';
+import { DatabaseProvider } from '~/infrastructure/database/database.provider';
+import { DATABASE_POOL_TOKEN } from '~/infrastructure/database/database.token';
 
 @Global()
 @Module({

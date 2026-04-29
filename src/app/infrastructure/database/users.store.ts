@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { DatabaseProvider } from './database.provider';
-import { usersSchema } from './users.schema';
+import { DatabaseProvider } from '~/infrastructure/database/database.provider';
+import { usersSchema } from '~/infrastructure/database/users.schema';
 
 @Injectable()
 export class UsersStore {

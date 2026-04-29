@@ -3,7 +3,7 @@ import { drizzle, NodePgDatabase } from 'drizzle-orm/node-postgres';
 import { Pool } from 'pg';
 import { type Schema, schema } from './schema';
 import { ConfigService } from '@nestjs/config';
-import { EnvironmentVariables } from 'src/app/infrastructure/configuration/env.validation';
+import { EnvironmentVariables } from '~/infrastructure/configuration/env.validation';
 @Injectable()
 export class DatabaseProvider implements OnModuleDestroy {
   private readonly pool: Pool;
