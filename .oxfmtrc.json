@@ -3,6 +3,7 @@
   "singleQuote": true,
   "trailingComma": "all",
   "printWidth": 80,
-  "sortPackageJson": false,
+  "tabWidth": 2,
+  "sortPackageJson": true,
   "ignorePatterns": []
 }
